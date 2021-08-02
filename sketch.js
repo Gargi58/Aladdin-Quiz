@@ -43,7 +43,7 @@ function draw() {
   security.display();
   textSize(23);
   fill("white");
-  text("Score: " + score, displayWidth/25, displayHeight/1.2);
+  text("Score: " + score, displayWidth/25, displayHeight/1.8);
 
   if(score === 3)
    { 
